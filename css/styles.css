@@ -17,20 +17,6 @@
   overflow: hidden;
 }
 
- 
-
-#hero .carousel-item::before {
-  content: '';
-  background-color: rgba(13, 30, 45, 0.6);
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-}
 
  
 
@@ -381,4 +367,5 @@ section .section-title {
   color:#aaa;
   margin-bottom:0;
 }
+
 
