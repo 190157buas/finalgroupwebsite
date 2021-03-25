@@ -184,19 +184,11 @@
 
 .navbar-custom
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
 	background-color:#c5c1c0
-=======
-	background-color:#418BCA
->>>>>>> e090a949f70a43eba2949ae927abe225fff76689
-=======
-	background-color:#41
->>>>>>> 1ce224038abb5d7bb6d53b48995f5472c562fac0
 }
 
 #team {
-    background: #eee !important;
+    background: #c5c1c0 !important;
 }
 
 .btn-primary:hover,
@@ -208,9 +200,9 @@
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #007b5e;
-    border-color: #007b5e;
+    color: #ffffff;
+    background-color: #ffb115;
+    border-color: #ffb115;
 }
 
 section {
@@ -219,14 +211,15 @@ section {
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: #ffb115;
+	font-family: 'Secular One', sans-serif;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 
 #team .card {
     border: none;
-    background: #FFFFFF;
+    background: #c5c1c0;
 }
 
 .image-flip:hover .backside,
@@ -308,21 +301,17 @@ section .section-title {
 
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    color: #1a2930 !important;
 }
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+    color: #1a2930 !important;
+	font-family: 'Saira Condensed', sans-serif;
 }
 
 .frontside .card .card-body img {
     width: 200px;
     height: 200px;
     border-radius: 80%;
-}
-
-.log-in{
-	position: relative;
-	left: 875px
 }
