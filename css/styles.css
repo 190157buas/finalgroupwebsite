@@ -313,3 +313,7 @@ section .section-title {
     height: 180px;
     border-radius: 80%;
 }
+.log-in{
+	position: relative;
+	left: 450px
+}
