@@ -184,7 +184,7 @@
 
 .navbar-custom
 {
-	background-color:#ffb115
+	background-color:#418BCA
 }
 
 #team {
@@ -218,7 +218,7 @@ section .section-title {
 
 #team .card {
     border: none;
-    background: #ffffff;
+    background: #FFFFFF;
 }
 
 .image-flip:hover .backside,
@@ -309,7 +309,7 @@ section .section-title {
 }
 
 .frontside .card .card-body img {
-    width: 195px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     border-radius: 80%;
 }
