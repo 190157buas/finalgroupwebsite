@@ -154,6 +154,7 @@
 @media (max-width: 768px) {
   #hero h2 {
     font-size: 28px;
+	font-family: 'Saira Condensed', sans-serif;
   }
 }
 
@@ -170,11 +171,11 @@
 
 .navbar-custom
 {
-	background-color:#c5c1c0
+	background-color:antiquewhite
 }
 
 #team {
-    background: #c5c1c0 !important;
+    background-color: antiquewhite !important;
 }
 
 .btn-primary:hover,
@@ -197,8 +198,7 @@ section {
 
 section .section-title {
     text-align: center;
-    color: #ffb115;
-	text-shadow: 2px 2px 15px #1a2930;
+    color: #1a2930;
 	font-family: 'Secular One', sans-serif;
     margin-bottom: 50px;
     text-transform: uppercase;
@@ -206,7 +206,7 @@ section .section-title {
 
 #team .card {
     border: none;
-    background: #c5c1c0;
+    background: #ffffff;
 }
 
 .image-flip:hover .backside,
@@ -288,7 +288,7 @@ section .section-title {
 
 .backside .card a {
     font-size: 18px;
-    color: #1a2930 !important;
+    color: #ffffff !important;
 }
 
 .frontside .card .card-title,
@@ -368,4 +368,7 @@ section .section-title {
   margin-bottom:0;
 }
 
+.full-page-background{
+	background-color:antiquewhite
+}
 
