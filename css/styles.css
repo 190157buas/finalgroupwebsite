@@ -184,7 +184,7 @@
 
 .navbar-custom
 {
-	background-color:#ffb115
+	background-color:#c5c1c0
 }
 
 #team {
@@ -312,4 +312,9 @@ section .section-title {
     width: 195px;
     height: 180px;
     border-radius: 80%;
+}
+
+.log-in{
+	position: relative;
+	left: 875px
 }
