@@ -17,20 +17,6 @@
   overflow: hidden;
 }
 
- 
-
-#hero .carousel-item::before {
-  content: '';
-  background-color: rgba(13, 30, 45, 0.6);
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-}
 
  
 
@@ -184,11 +170,11 @@
 
 .navbar-custom
 {
-	background-color:#ffb115
+	background-color:#c5c1c0
 }
 
 #team {
-    background: #eee !important;
+    background: #c5c1c0 !important;
 }
 
 .btn-primary:hover,
@@ -200,9 +186,9 @@
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #007b5e;
-    border-color: #007b5e;
+    color: #ffffff;
+    background-color: #ffb115;
+    border-color: #ffb115;
 }
 
 section {
@@ -211,14 +197,15 @@ section {
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: #ffb115;
+	font-family: 'Secular One', sans-serif;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 
 #team .card {
     border: none;
-    background: #ffffff;
+    background: #c5c1c0;
 }
 
 .image-flip:hover .backside,
@@ -300,20 +287,84 @@ section .section-title {
 
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    color: #1a2930 !important;
 }
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+    color: #1a2930 !important;
+	font-family: 'Saira Condensed', sans-serif;
 }
 
 .frontside .card .card-body img {
-    width: 195px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     border-radius: 80%;
 }
+
 .log-in{
 	position: relative;
-	left: 450px
+	left: 875px
 }
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+
