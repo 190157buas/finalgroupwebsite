@@ -30,13 +30,13 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #ffffff;
+  background-color: #0000;
 }
 
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
-  background-color: #ffffff;
+  background-color: #0000;
   padding: 10px;
 }
 
@@ -360,11 +360,6 @@ section .section-title {
     border-radius: 80%;
 }
 
-.log-in{
-	position: relative;
-	left: 875px
-}
-
 .footer-basic {
   padding:40px 0;
   background-color:#ffffff;
@@ -425,11 +420,9 @@ section .section-title {
   margin-bottom:0;
 }
 
-.full-page-background{
+/*Book here page*/
 
-}
-
-.container {
+.container2 {
 background-color: #fafafa;
 margin: 200px;
 box-shadow: 10px 15px 20px rgba(0, 0, 0, .1);
@@ -438,9 +431,9 @@ grid-template-columns: 40% 60%;
 }
 
 .container-time {
-background-color: rgba(0, 0, 0, .95);
+background-color: antiquewhite;
 padding: 50px;
-outline: 3px dashed #998100;
+outline: 3px dashed #1a2930;
 outline-offset: -30px;
 text-align: center;
 }
@@ -448,10 +441,11 @@ text-align: center;
 .heading {
 font-size: 35px;
 text-transform: uppercase;
+color: #1a2930
 }
 
 .heading-days {
-color:#998100;
+color:#1a2930;
 font-size: 30px;
 
 }
@@ -483,7 +477,7 @@ padding: 10px 15px;
 }
 
 .btn {
-background-color: rgba(0, 0, 0, .95);
+background-color: #ffb115;
 color: #fff;
 padding: 10px 20px;
 border: none;
