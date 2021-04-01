@@ -59,6 +59,9 @@ input[type=submit]:hover {
   width: 50%;
   margin-top: 6px;
   padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Clear floats after the columns */
@@ -227,7 +230,7 @@ input[type=submit]:hover {
 @media (max-width: 768px) {
   #hero h2 {
     font-size: 28px;
-	font-family: 'Saira Condensed', sans-serif;
+	font-family: 'Roboto', sans-serif;
   }
 }
 
@@ -248,7 +251,7 @@ input[type=submit]:hover {
 
 .navbar-custom
 {
-	background-color:antiquewhite
+	background-color:#FFCF6F
 }
 
 #team {
@@ -612,7 +615,7 @@ a:hover {
 .p {
   font-size: 14px;
   line-height: 1.7;
-  font-family: 'Faustina', serif;
+  font-family: 'roboto', sans-serif;
   color: #000000;
   margin: 0px;
   padding-bottom: 15px;
@@ -985,6 +988,14 @@ iframe {
 	color: white
 }
 
+
 .black{
 	color: #B4A7A7
-}
+
+.responsive {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
