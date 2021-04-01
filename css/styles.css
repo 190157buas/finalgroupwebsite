@@ -241,7 +241,7 @@ input[type=submit]:hover {
 }
 
 #team {
-    background-color: antiquewhite !important;
+    background-color: #ffffff !important;
 }
 
 .btn-primary:hover,
@@ -583,12 +583,13 @@ a:hover {
 .h1,.h2,.h3,.h4,.h5,.h6 {
   margin: 0px;
 
-font-size: 16px;
+font-size: 36px;
 font-family: 'Secular One', sans-serif; }
 
 .p {
   font-size: 14px;
   line-height: 1.7;
+  font-family: 'Faustina', serif;
   color: #000000;
   margin: 0px;
 }
