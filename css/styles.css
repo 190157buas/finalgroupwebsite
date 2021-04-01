@@ -991,11 +991,18 @@ iframe {
 
 .black{
 	color: #B4A7A7
+}
 
-.responsive {
+.pad {
+padding: 10px
+	
+}
+
+.responsive{
   width: 100%;
   max-width: 600px;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
