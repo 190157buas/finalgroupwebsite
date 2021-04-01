@@ -122,7 +122,8 @@ input[type=submit]:hover {
  
 
 #hero h2 {
-  color: #fff;
+  color: #fbb115;
+  outline-color: black;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 900;
@@ -134,7 +135,9 @@ input[type=submit]:hover {
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
-  color: #fff;
+  font-weight: 700;
+  outline-color: black;
+  font: bolder
 }
 
  
@@ -978,7 +981,10 @@ iframe {
 	background-color: #ffb115 
 }
 
-.orange{
-	color: black
+.grey{
+	color: white
 }
 
+.black{
+	color: #B4A7A7
+}
