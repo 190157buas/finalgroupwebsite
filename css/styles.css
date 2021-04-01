@@ -83,7 +83,7 @@
   max-width: 37.5rem;
   margin: 0 auto;
   padding: 0 1.25rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'roboto', sans-serif;
 }
 
 * {
@@ -134,6 +134,7 @@ ol, li {
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
 }
+
 
 .carousel__slide {
   position: relative;
@@ -464,8 +465,9 @@ input[type=submit]:hover {
 
 .navbar-custom
 {
-	background-color:antiquewhite
+	background-color:#021223;
 }
+
 
 #team {
     background-color: #ffffff !important;
@@ -803,7 +805,7 @@ a:focus {
 
 a:hover {
   text-decoration: none;
-  color: #403866;
+  color: #000000;
 }
 
 /*---------------------------------------------*/
@@ -823,15 +825,14 @@ a:hover {
 	font-weight: 700;
 }
 
-
-
 .p {
   font-size: 14px;
   line-height: 1.7;
-  font-family: 'Faustina', serif;
+  font-family: 'roboto', sans-serif;
   color: #000000;
   margin: 0px;
   padding-bottom: 15px;
+  padding-top: 5px
 }
 
 ul, li {
@@ -858,15 +859,15 @@ textarea:focus, input:focus {
   border-color: transparent !important;
 }
 
-input::-webkit-input-placeholder { color: #8f8fa1;}
-input:-moz-placeholder { color: #8f8fa1;}
-input::-moz-placeholder { color: #8f8fa1;}
-input:-ms-input-placeholder { color: #8f8fa1;}
+input::-webkit-input-placeholder { color: #000;}
+input:-moz-placeholder { color: #000;}
+input::-moz-placeholder { color: #000;}
+input:-ms-input-placeholder { color: #000;}
 
-textarea::-webkit-input-placeholder { color: #8f8fa1;}
-textarea:-moz-placeholder { color: #8f8fa1;}
-textarea::-moz-placeholder { color: #8f8fa1;}
-textarea:-ms-input-placeholder { color: #8f8fa1;}
+textarea::-webkit-input-placeholder { color: #000;}
+textarea:-moz-placeholder { color: #000;}
+textarea::-moz-placeholder { color: #000;}
+textarea:-ms-input-placeholder { color: #000;}
 
 label {
   display: block;
@@ -893,7 +894,7 @@ iframe {
 [ Utility ]*/
 .txt1 {
   font-size: 16px;
-  color: #827ffe;
+  color: #ffb115;
   line-height: 1.4;
 }
 
@@ -943,7 +944,7 @@ iframe {
 
 .login100-form-title {
   font-size: 30px;
-  color: #403866;
+  color:#000A20;
   line-height: 1.2;
   text-transform: uppercase;
   text-align: center;
@@ -968,7 +969,7 @@ iframe {
 
 /*---------------------------------------------*/
 .input100 {
-  color: #403866;
+  color: #000000;
   line-height: 1.2;
   font-size: 18px;
 
@@ -1065,7 +1066,7 @@ iframe {
   height: 18px;
   border-radius: 3px;
   background: #fff;
-  border: 2px solid #827ffe;
+  border: 2px solid #000000;
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1076,7 +1077,8 @@ iframe {
 }
 
 .input-checkbox100:checked + .label-checkbox100::before {
-  color: #827ffe;
+  color: #000000;
+  padding-top: 10px;
 }
 
 
@@ -1093,9 +1095,9 @@ iframe {
 }
 
 .login100-form-btn {
-  font-family: Ubuntu-Bold;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: #fff;
+  color: #ffffff;
   line-height: 1.2;
   text-transform: uppercase;
 
@@ -1109,7 +1111,7 @@ iframe {
   padding: 0 20px;
   width: 100%;
   height: 62px;
-  background-color: #827ffe;
+  background-color: #ffb115;
   border-radius: 3px;
 
   -webkit-transition: all 0.4s;
@@ -1119,7 +1121,7 @@ iframe {
 }
 
 .login100-form-btn:hover {
-  background-color: #403866;
+  background-color: #ffb115;
 }
 
 
@@ -1135,7 +1137,7 @@ iframe {
   position: absolute;
   max-width: 70%;
   background-color: #fff;
-  border: 1px solid #c80000;
+  border: 1px solid #000000;
   border-radius: 3px;
   padding: 4px 25px 5px 10px;
   top: 50%;
@@ -1147,8 +1149,8 @@ iframe {
   right: 12px;
   pointer-events: none;
 
-  font-family: Ubuntu-Regular;
-  color: #c80000;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
   font-size: 14px;
   line-height: 1.4;
   text-align: left;
@@ -1166,7 +1168,7 @@ iframe {
   content: "\f12a";
   display: block;
   position: absolute;
-  color: #c80000;
+  color: #000000;
   font-size: 18px;
   top: 50%;
   -webkit-transform: translateY(-50%);
