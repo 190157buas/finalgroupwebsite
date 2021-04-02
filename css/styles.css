@@ -461,7 +461,7 @@ section .section-title {
 }
 
 .container-time {
-	background-color: white;
+	background-color: #ffb115;
 	padding: 50px;
 	outline: 3px dashed #1a2930;
 	outline-offset: -30px;
@@ -645,7 +645,7 @@ textarea {
 .logintitle{
 	font-family: 'Secular One', sans-serif;
 	color: black;
-	font-size: 44px;
+	font-size: 42px;
 	text-transform: uppercase;
 }
 
