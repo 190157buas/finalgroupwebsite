@@ -615,7 +615,12 @@ a:hover {
 	font-weight: 700;
 }
 
+.quotes{
+	font-family: 'Faustina', serif;
+	font-size: 30px;
+	text-align: center
 
+}
 
 .p {
   font-size: 14px;
