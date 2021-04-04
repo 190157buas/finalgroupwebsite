@@ -312,7 +312,6 @@ section .section-title {
     -webkit-transform-style: preserve-3d;
     -ms-transition: 1s;
     -moz-transition: 1s;
-    moz-transform: perspective(1000px);
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transition: 1s;
@@ -322,8 +321,6 @@ section .section-title {
 
 .frontside {
     position: relative;
-    webkit-transform: rotateY(0deg);
-    ms-transform: rotateY(0deg);
     z-index: 2;
     margin-bottom: 30px;
 }
@@ -504,7 +501,7 @@ form p {
 }
 
 input,select {
-	pad: 20px 15px;
+	padding:20px 15px;
 }
 
 .btn {
@@ -1058,12 +1055,12 @@ body {
 }
 
 .tm-site-title {
-  color: #00000 ;
+  color: black;
   font-size: 3rem;
 }
 
 .tm-site-subtitle {
-  color: #00000;
+  color: black;
   font-size: 1.2rem;
   margin-bottom: 30px;
 }
@@ -1091,11 +1088,11 @@ body {
 }
 
 .tm-color-primary {
-  color: #00000;
+  color: black;
 }
 
 .tm-color-secondary {
-  color: #00000 ;
+  color: black;
 }
 
 .tm-btn-primary {
@@ -1160,7 +1157,7 @@ ul.dashed > li:before {
 }
 
 a.btn:hover {
-  color: #00000;
+  color: black;
   text-decoration: none;
 }
 
