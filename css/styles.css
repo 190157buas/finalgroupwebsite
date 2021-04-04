@@ -444,7 +444,11 @@ section .section-title {
   margin-bottom:0;
 }
 
-
+.image69{
+	position: relative;
+	left: -10px;
+	top: -3px
+}
 /*Book here page*/
 .wrapper{
 	padding-top: 75px;
