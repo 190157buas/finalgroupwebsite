@@ -653,8 +653,12 @@ textarea {
 	color: black;
 	font-size: 42px;
 	text-transform: uppercase;
+}
+
+.center{
 	text-align: center;
 }
+
 
 .homeheader{
 	font-family: 'Secular One', sans-serif;
